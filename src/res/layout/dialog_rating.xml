@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2">
+	<RelativeLayout android:background="res/drawable/rounded_rectangle.xml" android:layout_width="-1" android:layout_height="-2" android:animateLayoutChanges="true">
+		<ImageView android:id="" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="20sp" android:gravity="0x11" android:id="" android:padding="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_below="" android:layout_centerHorizontal="true" />
+		<RatingBar android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:numStars="5" android:stepSize="{4:1065353216}" android:layout_below="" android:layout_centerHorizontal="true" android:scaleX="{4:1060320051}" android:scaleY="{4:1060320051}" />
+		<TextView android:textSize="18sp" android:textColor="000" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_below="" />
+		<EditText android:textColorHint="bdbdbd" android:gravity="0x33" android:id="" android:background="res/drawable/edittext_background.xml" android:padding="10dp" android:visibility="2" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="100dp" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:maxLines="10" android:lines="8" android:minLines="6" android:layout_below="" android:inputType="0x24001" />
+		<LinearLayout android:orientation="0" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_below="">
+			<TextView android:textSize="15sp" android:gravity="0x11" android:id="" android:padding="15dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:foreground="{2:2130903469}" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="15sp" android:gravity="0x11" android:id="" android:padding="15dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:foreground="{2:2130903469}" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_below="">
+			<TextView android:textSize="15sp" android:gravity="0x11" android:id="" android:background="{2:2130903469}" android:padding="15dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+			<TextView android:textSize="15sp" android:gravity="0x11" android:id="" android:background="{2:2130903469}" android:padding="15dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+	</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="" android:background="res/drawable/banner_border.xml" android:layout_width="300dp" android:layout_height="250dp" android:layout_marginBottom="12dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+	<TextView android:textSize="12sp" android:textColor="ff636f6f" android:ellipsize="3" android:id="" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginBottom="10dp" android:maxLines="2" android:lines="2" android:layout_toLeftOf="" android:layout_alignParentBottom="true" />
+	<ImageView android:id="" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_alignParentLeft="true" />
+	<TextView android:textSize="18sp" android:textColor="ff000" android:ellipsize="3" android:gravity="0x3" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12dp" android:maxLines="1" android:layout_toLeftOf="" android:layout_toRightOf="" android:layout_alignTop="" />
+	<Button android:textSize="10sp" android:textStyle="0x1" android:textColor="ffffffff" android:ellipsize="3" android:gravity="0x11" android:id="" android:background="res/drawable/apnxt_green_round_rect_banner.xml" android:layout_width="60dp" android:layout_height="24dp" android:layout_marginRight="10dp" android:layout_marginBottom="2dp" android:text="Install" android:lines="1" android:layout_alignBottom="" android:layout_alignParentRight="true" />
+	<RatingBar android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="" android:layout_alignBottom="" style="@style/apnxtRatingBar" />
+	<RelativeLayout android:id="" android:layout_width="-1" android:layout_height="160dp" android:layout_marginTop="5dp" android:layout_above="" android:layout_below="" android:layout_alignLeft="" android:layout_alignRight="">
+		<ImageView android:id="" android:layout_width="-1" android:layout_height="-1" />
+		<ImageView android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+		<ImageView android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-hdpi/apnxt_banner_play.png" android:scaleType="7" />
+		<ImageView android:id="" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-hdpi/apnxt_banner_mute.png" android:layout_alignParentLeft="true" />
+	</RelativeLayout>
+	<ImageView android:id="" android:paddingLeft="14dp" android:paddingBottom="14dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-hdpi/apnxt_banner_i_icon.png" android:layout_alignParentRight="true" />
+</RelativeLayout>

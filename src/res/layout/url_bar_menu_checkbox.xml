@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android" android:checked="false" android:button="res/drawable/checkbox_states.xml" android:text="Request desktop page" style="@style/BrowserCheckbox" />

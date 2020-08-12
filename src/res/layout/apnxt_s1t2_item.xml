@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+	<View android:background="resourceId:0x106000c" android:layout_width="-1" android:layout_height="-1" android:alpha="{4:1053609165}" />
+	<ImageView android:id="" android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable-hdpi/apnxt_big_play_button.png" android:layout_above="" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	<RelativeLayout android:id="" android:background="res/drawable/apnxt_white_rect.xml" android:layout_width="-1" android:layout_height="85dp" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:layout_marginBottom="15dp" android:layout_alignParentBottom="true">
+		<ImageView android:id="" android:layout_width="57dp" android:layout_height="57dp" android:layout_marginLeft="11dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+		<TextView android:textSize="15sp" android:textColor="ff898989" android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="First game label First game label" android:layout_toRightOf="" android:layout_alignTop="" android:scaleY="{4:1066192077}" />
+		<RatingBar android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="" android:layout_alignBottom="" style="@style/apnxtRatingBar" />
+	</RelativeLayout>
+	<View android:id="" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

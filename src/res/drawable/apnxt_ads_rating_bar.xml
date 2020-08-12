@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="resourceId:0x1020000" android:drawable="res/drawable-hdpi/apnxt_ads_empty_star.png" />
+	<item android:id="resourceId:0x102000f" android:drawable="res/drawable-hdpi/apnxt_ads_empty_star.png" />
+	<item android:id="resourceId:0x102000d" android:drawable="res/drawable-hdpi/apnxt_ads_full_star.png" />
+</layer-list>

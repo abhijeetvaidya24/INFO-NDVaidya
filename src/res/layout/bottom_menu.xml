@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<com.appsgeyser.multiTabApp.controllers.ContentSwipeAwareViewPager xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800033" android:id="" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+	<com.google.android.material.bottomnavigation.BottomNavigationView android:id="" android:background="{2:2130903192}" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" app:itemBackground="{2:2130903192}" app:itemTextColor="res/color/bottom_navigation_item_background_colors.xml" style="@style/Widget.MaterialComponents.BottomNavigationView" />
+	<include layout="@layout/bottom_additional_menu" />
+</merge>

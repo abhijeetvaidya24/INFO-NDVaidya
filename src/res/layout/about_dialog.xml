@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="" android:background="res/drawable/about_background.xml" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:gravity="0x1" android:id="" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/about_appsgeyser_logo.png" android:layout_weight="{4:1065353216}" />
+	<TextView android:textSize="20sp" android:textColor="ff000" android:gravity="0x11" android:layout_gravity="0x11" android:id="" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:maxLines="3" android:layout_weight="{4:1065353216}" />
+	<TextView android:textSize="17sp" android:textColor="ff000" android:gravity="0x11" android:id="" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+	<TextView android:textSize="13sp" android:textColor="ff444444" android:gravity="0x11" android:id="" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+</LinearLayout>

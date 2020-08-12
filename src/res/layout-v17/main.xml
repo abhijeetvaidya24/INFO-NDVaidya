@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x1" android:orientation="1" android:id="" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="" android:layout_width="-1" android:layout_height="-2" app:theme="resourceId:0x7f110002">
+			<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="0x9" app:popupTheme="resourceId:0x7f110001" app:theme="resourceId:0x7f110002" />
+		</com.google.android.material.appbar.AppBarLayout>
+		<FrameLayout android:gravity="0x1" android:orientation="1" android:id="" android:layout_width="-1" android:layout_height="-1" android:layout_below="">
+			<ImageView android:layout_gravity="0x800013" android:id="" android:background="res/drawable/slider_handle_background.xml" android:paddingLeft="36dp" android:paddingRight="0dp" android:visibility="2" android:layout_width="52dp" android:layout_height="50dp" android:layout_marginLeft="-40dp" android:src="res/drawable-xxxhdpi/ic_keyboard_arrow_right_white_24dp.png" android:paddingStart="32dp" android:paddingEnd="0dp" android:layout_marginStart="-40dp" />
+			<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+				<RelativeLayout android:gravity="0x11" android:id="" android:layout_width="-1" android:layout_height="-2" />
+				<LinearLayout android:gravity="0x1" android:orientation="1" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+			</RelativeLayout>
+			<FrameLayout android:orientation="1" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+			<FrameLayout android:orientation="1" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<com.appsgeyser.multiTabApp.ui.views.BrowserWebView android:id="" android:layout_width="-1" android:layout_height="-1" />
+			</FrameLayout>
+			<RelativeLayout android:id="" android:background="ff000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+				<ImageView android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+			</RelativeLayout>
+		</FrameLayout>
+	</RelativeLayout>
+	<ListView android:layout_gravity="0x800003" android:id="" android:background="ffffffff" android:layout_width="300dp" android:layout_height="-1" android:divider="resourceId:0x0" android:dividerHeight="0dp" android:choiceMode="1" />
+</androidx.drawerlayout.widget.DrawerLayout>

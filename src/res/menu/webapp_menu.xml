@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable/ic_arrow_back_black_24dp.png" android:id="" android:visible="false" android:orderInCategory="49" android:title="Back" />
+	<item android:icon="res/drawable/ic_arrow_forward_black_24dp.png" android:id="" android:visible="false" android:orderInCategory="50" android:title="Forward" />
+	<item android:icon="res/drawable-xxxhdpi/outline_desktop_windows_black_24.png" android:id="" android:checked="false" android:visible="false" android:orderInCategory="50" android:title="Request desktop page" android:checkable="true" />
+	<item android:icon="res/drawable-xxxhdpi/outline_offline_pin_black_24.png" android:id="" android:visible="false" android:orderInCategory="50" android:title="Add this to start page" />
+	<item android:icon="res/drawable-xxxhdpi/outline_home_black_24.png" android:id="" android:visible="false" android:orderInCategory="2" android:title="Home" />
+	<item android:icon="res/drawable-xxxhdpi/outline_archive_black_24.png" android:id="" android:visible="false" android:orderInCategory="5" android:title="Downloads list" />
+	<item android:icon="res/drawable-xxxhdpi/outline_settings_black_24.png" android:id="" android:visible="false" android:orderInCategory="4" android:title="Settings" />
+	<item android:icon="res/drawable-xxxhdpi/outline_palette_black_24.png" android:id="" android:visible="false" android:orderInCategory="6" android:title="Theming" />
+	<item android:icon="res/drawable/star.png" android:id="" android:orderInCategory="99" android:title="Remove ads" />
+	<item android:icon="res/drawable/ic_menu_refresh.png" android:id="" android:orderInCategory="3" android:title="Refresh" />
+	<item android:icon="resourceId:0x1080052" android:id="" android:orderInCategory="97" android:title="Share" />
+	<item android:icon="resourceId:0x1080041" android:id="" android:orderInCategory="98" android:title="About" />
+	<item android:icon="res/drawable/ic_menu_favorite.png" android:id="" android:orderInCategory="50" android:title="Rate" />
+	<item android:icon="resourceId:0x1080038" android:id="" android:orderInCategory="100" android:title="Exit" />
+</menu>

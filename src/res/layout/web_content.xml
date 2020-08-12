@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appsgeyser.multiTabApp.ui.views.WebContent xmlns:android="http://schemas.android.com/apk/res/android" android:id="" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+	<com.appsgeyser.multiTabApp.ui.views.BrowserWebView android:id="" android:visibility="0" android:layout_width="-1" android:layout_height="-1" />
+	<RelativeLayout android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentTop="true">
+		<ProgressBar android:id="" android:paddingTop="0dp" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+		<TextView android:textSize="18sp" android:textColor="ffffffff" android:gravity="0x11" android:id="" android:background="ee000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:text="Loading…" android:editable="false" android:layout_below="" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:color="55000" />
+</com.appsgeyser.multiTabApp.ui.views.WebContent>

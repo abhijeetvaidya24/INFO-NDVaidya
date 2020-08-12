@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-xxxhdpi/ic_delete_black_24dp.png" android:id="" android:visible="true" android:title="Clear list" />
+</menu>

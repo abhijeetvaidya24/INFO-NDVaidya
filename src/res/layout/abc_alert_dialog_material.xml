@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800033" android:orientation="1" android:id="" android:layout_width="-1" android:layout_height="-2">
+	<include layout="@layout/abc_alert_dialog_title_material" />
+	<FrameLayout android:id="" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+		<View android:layout_gravity="0x30" android:id="" android:background="{2:2130903189}" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+		<androidx.core.widget.NestedScrollView android:id="" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<android.widget.Space android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="18dp" />
+				<TextView android:id="resourceId:0x102000b" android:paddingLeft="{2:2130903226}" android:paddingRight="{2:2130903226}" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.AppCompat.Subhead" />
+				<android.widget.Space android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="18dp" />
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+		<View android:layout_gravity="0x50" android:id="" android:background="{2:2130903189}" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+	</FrameLayout>
+	<FrameLayout android:id="" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+		<FrameLayout android:id="" android:layout_width="-1" android:layout_height="-2" />
+	</FrameLayout>
+	<include android:layout_width="-1" android:layout_height="-2" layout="@layout/abc_alert_dialog_button_bar_material" />
+</androidx.appcompat.widget.AlertDialogLayout>

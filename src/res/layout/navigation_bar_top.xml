@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<androidx.appcompat.widget.Toolbar android:id="" android:background="{2:2130903192}" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginRight="0dp" android:minHeight="50dp" app:contentInsetLeft="0dp" app:contentInsetStart="0dp" app:popupTheme="resourceId:0x7f110001" app:theme="resourceId:0x7f110002">
+		<RelativeLayout android:gravity="0x10" android:orientation="0" android:id="" android:padding="3dp" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="60dp">
+				<ImageView android:layout_gravity="0x11" android:id="" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi/ic_search_white_24dp.png" />
+				<RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+					<AutoCompleteTextView android:textColor="ffffffff" android:textColorHint="b3ffffff" android:gravity="0x10" android:id="" android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="-2" android:hint="Search or type URL" android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="0x11" android:imeOptions="0x3" />
+					<ImageButton android:id="" android:background="resourceId:0x106000d" android:padding="3dp" android:visibility="2" android:layout_width="30dp" android:layout_height="-2" android:layout_marginRight="0dp" android:src="res/drawable/ic_cancel_16.png" android:scaleType="3" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+				</RelativeLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<ImageButton android:layout_gravity="0x11" android:id="" android:background="resourceId:0x106000d" android:paddingLeft="8dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-1" android:src="res/drawable-xxxhdpi/ic_refresh_white_24dp.png" />
+			</LinearLayout>
+		</RelativeLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<ScrollView android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="" android:background="res/drawable/suggestions_background.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="50dp" android:layout_marginRight="0dp" />
+	</ScrollView>
+	<ScrollView android:id="" android:visibility="2" android:layout_width="-2" android:layout_height="-1">
+		<RelativeLayout android:layout_gravity="0x30" android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="47dp">
+			<LinearLayout android:orientation="1" android:id="" android:background="res/drawable/url_bar_menu_shadow.9.png" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="-10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+		</RelativeLayout>
+	</ScrollView>
+</merge>

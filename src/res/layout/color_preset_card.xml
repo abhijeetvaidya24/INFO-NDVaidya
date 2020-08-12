@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_margin="4dp" app:cardCornerRadius="4dp">
+	<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-2">
+		<RadioButton android:id="" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:fontFamily="res/font/opensans_regular.ttf" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="{4:1056964608}" />
+		<ImageView android:id="" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:contentDescription="Presented theme colorAccent" app:layout_constraintRight_toRightOf="0" />
+		<ImageView android:id="" android:layout_width="40dp" android:layout_height="40dp" android:contentDescription="Presented theme colorPrimary" app:layout_constraintRight_toLeftOf="" />
+		<ImageView android:id="" android:layout_width="40dp" android:layout_height="40dp" android:contentDescription="Presented theme colorPrimaryDark" app:layout_constraintRight_toLeftOf="" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

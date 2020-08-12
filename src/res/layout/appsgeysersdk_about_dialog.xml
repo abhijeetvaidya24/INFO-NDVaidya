@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/back_lg_pr_cs.jpg" android:scaleType="6" />
+	<FrameLayout android:background="dd000" android:layout_width="-1" android:layout_height="-1" android:alpha="{4:1063675494}" />
+	<ImageView android:layout_gravity="0x800005" android:id="" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_margin="8dp" android:src="res/drawable-xxxhdpi/ic_close_white_24dp.png" android:foregroundGravity="0x5" />
+	<LinearLayout android:layout_gravity="0x10" android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="30sp" android:textColor="resourceId:0x106000b" android:gravity="0x1" android:id="" android:layout_width="-1" android:layout_height="-2" android:text="App Name" android:lines="1" />
+		<TextView android:textSize="20sp" android:textColor="aaffffff" android:gravity="0x1" android:id="" android:layout_width="-1" android:layout_height="-2" android:text="v1.99" />
+		<ImageView android:id="" android:layout_width="-1" android:layout_height="160dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="res/drawable/appsgeyser_logo.png" />
+		<ImageView android:layout_gravity="0x800005" android:id="" android:clickable="true" android:layout_width="-1" android:layout_height="0dp" android:layout_margin="16dp" android:src="res/drawable/appsgeysersdk_about_appsgeyser_logo.png" android:layout_weight="{4:1056629064}" android:foregroundGravity="0x10" />
+		<TextView android:textSize="20sp" android:textColor="aaffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Description" android:maxLines="5" />
+		<LinearLayout android:gravity="0x1" android:layout_gravity="0x1" android:orientation="0" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+			<Button android:textColor="ffaaffff" android:id="" android:layout_width="-2" android:layout_height="-2" android:text="Terms of Service" android:textAllCaps="true" style="@style/Widget.AppCompat.Button.Borderless" />
+			<Button android:textColor="ffaaffff" android:id="" android:layout_width="-2" android:layout_height="-2" android:text="Privacy Policy" android:textAllCaps="true" style="@style/Widget.AppCompat.Button.Borderless" />
+		</LinearLayout>
+	</LinearLayout>
+	<RelativeLayout android:padding="8dp" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="14sp" android:textColor="88ffffff" android:gravity="0x1" android:id="" android:layout_width="-1" android:layout_height="-2" android:text="build v2.0" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+</FrameLayout>

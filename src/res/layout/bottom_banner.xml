@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.appsgeyser.multiTabApp.ui.views.TransparentPanel android:id="" android:paddingLeft="3px" android:paddingTop="3px" android:paddingRight="3px" android:paddingBottom="3px" android:visibility="2" android:layout_width="326dp" android:layout_height="56dp" android:layout_marginTop="1px">
+		<FrameLayout android:gravity="0x33" android:orientation="0" android:id="" android:background="res/drawable/contents_background.xml" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<com.appsgeyser.multiTabApp.ui.views.BrowserWebView android:id="" android:layout_width="-1" android:layout_height="-1" />
+		</FrameLayout>
+	</com.appsgeyser.multiTabApp.ui.views.TransparentPanel>
+</merge>

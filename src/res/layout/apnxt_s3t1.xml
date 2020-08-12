@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="30sp" android:textColor="ffffffff" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="Thanks for watching!" android:layout_above="" android:scaleY="{4:1066192077}" android:fontFamily="sans-serif-thin" />
+	<RelativeLayout android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+		<ImageView android:id="" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" />
+		<RelativeLayout android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="80dp" android:layout_below="">
+			<ImageView android:id="" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" android:layout_alignParentLeft="true" />
+			<TextView android:textSize="18sp" android:textColor="ff4f4f4f" android:id="" android:layout_width="550dp" android:layout_height="40dp" android:lines="1" android:layout_toLeftOf="" android:layout_toRightOf="" android:layout_alignTop="" android:fontFamily="sans-serif-thin" />
+			<TextView android:textSize="16sp" android:textColor="ff55a11f" android:id="" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Install" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+			<RatingBar android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="" android:layout_alignBottom="" style="@style/apnxtRatingBar" />
+			<View android:id="" android:layout_width="-1" android:layout_height="-1" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<ImageView android:id="" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingRight="7dp" android:paddingBottom="7dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-hdpi/apnxt_ads_i_icon.png" android:layout_alignParentLeft="true" />
+	<ImageView android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:src="res/drawable-hdpi/apnxt_x_icon.png" android:layout_alignParentRight="true" />
+</RelativeLayout>

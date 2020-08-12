@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="" android:background="000" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_margin="8dp" android:src="res/drawable-xxxhdpi/ic_close_white_24dp.png" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+	<WebView android:id="" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+	<FrameLayout android:id="" android:background="ff000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:layout_gravity="0x11" android:background="fff1dddd" android:padding="14dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="ffa84442" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="This app has been disabled for violation of our Terms of Service." />
+		</FrameLayout>
+	</FrameLayout>
+</RelativeLayout>

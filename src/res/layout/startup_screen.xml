@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:gravity="0x11" android:orientation="1" android:id="" android:layout_width="-1" android:layout_height="-1">
+		<com.appsgeyser.multiTabApp.ui.views.BrowserWebView android:id="" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+	</RelativeLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_below="">
+		<TextView android:textSize="18sp" android:textColor="ffffffff" android:id="" android:layout_width="-2" android:layout_height="-2" android:text="Loading…" android:editable="false" android:layout_centerInParent="true" />
+	</RelativeLayout>
+</RelativeLayout>

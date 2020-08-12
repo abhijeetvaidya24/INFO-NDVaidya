@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:id="" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:gravity="0x3" android:id="" android:padding="7dp" android:layout_width="-2" android:layout_height="-2" android:text="" />
+	<LinearLayout android:gravity="0x1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_below="">
+		<Button android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5px" android:layout_marginRight="5px" android:text="OK" android:layout_weight="{4:1056964608}" android:layout_alignParentRight="true" />
+		<Button android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5px" android:layout_marginRight="5px" android:text="Cancel" android:layout_weight="{4:1056964608}" android:layout_alignParentRight="true" />
+	</LinearLayout>
+</LinearLayout>

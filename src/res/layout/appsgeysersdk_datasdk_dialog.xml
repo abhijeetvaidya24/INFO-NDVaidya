@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="14dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="ff3db9e6" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" />
+		<WebView android:scrollbarThumbVertical="res/drawable/webview_scroll.xml" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_margin="4dp" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x5" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="12sp" android:textColor="ff7b7b7b" android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_margin="6dp" android:text="Decline" android:textAllCaps="true" />
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="ff27ca59" android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_margin="6dp" android:text="Accept" android:textAllCaps="true" />
+	</LinearLayout>
+</LinearLayout>

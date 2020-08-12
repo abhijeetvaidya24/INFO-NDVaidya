@@ -1,0 +1,14 @@
+/*
+ * Decompiled with CFR 0.0.
+ * 
+ * Could not load the following classes:
+ *  java.lang.Object
+ */
+package com.moat.analytics.mobile.mpub;
+
+interface MoatPlugin<T> {
+    public T a();
+
+    public T b();
+}
+

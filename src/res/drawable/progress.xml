@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="resourceId:0x1020000">
+		<shape>
+			<solid android:color="ffffffff" />
+		</shape>
+	</item>
+	<item android:id="resourceId:0x102000d">
+		<clip android:gravity="0x3" android:clipOrientation="0x1">
+			<shape>
+				<solid android:color="{2:2130903185}" />
+			</shape>
+		</clip>
+	</item>
+</layer-list>

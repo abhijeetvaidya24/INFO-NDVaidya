@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="" android:background="ff333333" android:layout_width="-1" android:layout_height="40dp" android:layout_alignParentBottom="true">
+		<ImageButton android:layout_gravity="0x11" android:id="" android:background="resourceId:0x106000d" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/btn_back.xml" android:layout_weight="{4:1065353216}" />
+		<ImageButton android:layout_gravity="0x11" android:id="" android:background="resourceId:0x106000d" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/btn_forward.xml" android:layout_weight="{4:1065353216}" />
+		<ImageButton android:layout_gravity="0x11" android:id="" android:background="resourceId:0x106000d" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/btn_refresh.xml" android:layout_weight="{4:1065353216}" />
+		<ImageButton android:layout_gravity="0x11" android:id="" android:background="resourceId:0x106000d" android:padding="5dp" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/btn_close.xml" android:layout_weight="{4:1065353216}" />
+		<TextView android:textStyle="0x1" android:gravity="0x11" android:layout_gravity="0x11" android:id="" android:background="resourceId:0x106000d" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+	<WebView android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_above="" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+	<TextView android:textColor="ff36ff25" android:id="" android:background="ff000" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_alignBottom="" android:layout_alignParentRight="true" />
+</RelativeLayout>

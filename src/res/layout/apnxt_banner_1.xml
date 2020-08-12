@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/banner_border.xml" android:layout_width="320dp" android:layout_height="50dp">
+	<ImageView android:id="" android:layout_width="36dp" android:layout_height="36dp" android:layout_margin="7dp" android:layout_alignParentLeft="true" />
+	<TextView android:textSize="14sp" android:textColor="ff000" android:ellipsize="3" android:gravity="0x3" android:id="" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:layout_toLeftOf="" android:layout_toRightOf="" android:layout_alignTop="" />
+	<Button android:textSize="10sp" android:textStyle="0x1" android:textColor="ffffffff" android:ellipsize="3" android:gravity="0x11" android:id="" android:background="res/drawable/apnxt_green_round_rect_banner.xml" android:layout_width="65dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:layout_marginRight="35dp" android:text="Install" android:lines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<RatingBar android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="" android:layout_alignBottom="" style="@style/apnxtRatingBar" />
+	<ImageView android:id="" android:paddingLeft="14dp" android:paddingBottom="14dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-hdpi/apnxt_banner_i_icon.png" android:layout_alignParentRight="true" />
+</RelativeLayout>

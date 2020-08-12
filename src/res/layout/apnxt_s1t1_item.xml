@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="140dp" android:layout_marginLeft="25dp" android:layout_marginTop="25dp" android:layout_marginRight="25dp" android:layout_marginBottom="10dp">
+	<View android:id="" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="75dp" android:layout_marginBottom="40dp" android:layout_alignParentBottom="true" />
+	<ImageView android:id="" android:layout_width="85dp" android:layout_height="85dp" android:layout_marginLeft="13dp" android:layout_marginBottom="13dp" android:layout_alignBottom="" android:layout_alignParentLeft="true" />
+	<ImageView android:id="" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginTop="9dp" android:src="res/drawable-hdpi/apnxt_play_button.png" android:layout_below="" android:layout_alignLeft="" />
+	<TextView android:textSize="22sp" android:textColor="resourceId:0x106000b" android:gravity="0x3" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Play this video" android:layout_toRightOf="" android:layout_below="" android:scaleY="{4:1066192077}" android:fontFamily="sans-serif" />
+	<TextView android:textSize="16sp" android:textColor="ff898989" android:ellipsize="3" android:id="" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:lines="1" android:layout_toRightOf="" android:layout_alignTop="" android:layout_alignParentRight="true" android:fontFamily="sans-serif" />
+	<RatingBar android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:layout_alignLeft="" android:layout_alignBottom="" style="@style/apnxtRatingBar" />
+	<View android:id="" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

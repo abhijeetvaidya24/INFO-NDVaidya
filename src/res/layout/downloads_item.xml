@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:orientation="1" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:weightSum="{4:1065353216}" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+		<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp">
+			<TextView android:textSize="16sp" android:textColor="212121" android:ellipsize="3" android:id="" android:layout_width="-1" android:layout_height="-2" android:text="New Text" android:maxLines="1" android:layout_toLeftOf="" android:fontFamily="res/font/opensans_semibold.ttf" />
+			<TextView android:textSize="14sp" android:textColor="212121" android:gravity="0x5" android:id="" android:layout_width="50dp" android:layout_height="-2" android:text="1 Jan" android:layout_alignParentRight="true" android:fontFamily="res/font/opensans_regular.ttf" />
+		</RelativeLayout>
+		<TextView android:textSize="14sp" android:textColor="757575" android:ellipsize="3" android:id="" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="New Text" android:maxLines="1" android:fontFamily="res/font/opensans_regular.ttf" />
+		<ProgressBar android:id="" android:visibility="2" android:layout_width="-1" android:layout_height="2dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:progressDrawable="res/drawable/progress.xml" style="?android:progressBarStyleHorizontal" />
+	</LinearLayout>
+</RelativeLayout>
